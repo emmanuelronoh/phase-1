@@ -1,0 +1,63 @@
+{
+    "html": {
+        "notes": [
+            "HTML stands for Hyper Text Markup Language.",
+            "It is used to create and structure the content of web pages."
+        ],
+        "questions": [
+            {
+                "question": "What does HTML stand for?",
+                "correctAnswer": "Hyper Text Markup Language",
+                "studentAnswer": "",
+                "result": ""
+            },
+            {
+                "question": "What is the purpose of HTML?",
+                "correctAnswer": "To create and structure content on web pages",
+                "studentAnswer": "",
+                "result": ""
+            }
+        ]
+    },
+    "css": {
+        "notes": [
+            "CSS stands for Cascading Style Sheets.",
+            "It is used for styling and formatting web pages."
+        ],
+        "questions": [
+            {
+                "question": "What does CSS stand for?",
+                "correctAnswer": "Cascading Style Sheets",
+                "studentAnswer": "",
+                "result": ""
+            },
+            {
+                "question": "What is the primary use of CSS?",
+                "correctAnswer": "To style and format web pages",
+                "studentAnswer": "",
+                "result": ""
+            }
+        ]
+    },
+    "javascript": {
+        "notes": [
+            "JavaScript is a programming language used for web development.",
+            "It enables interactive and dynamic content on web pages."
+        ],
+        "questions": [
+            {
+                "question": "What is JavaScript primarily used for?",
+                "correctAnswer": "Web development",
+                "studentAnswer": "",
+                "result": ""
+            },
+            {
+                "question": "What does JavaScript enable on web pages?",
+                "correctAnswer": "Interactive and dynamic content",
+                "studentAnswer": "",
+                "result": ""
+            }
+        ]
+    },
+    "questions": []
+}

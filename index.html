@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Software Engineering Learning Platform</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the Learning Platform</h1>
+    </header>
+
+    <div class="main-container">
+        <div class="sidebar">
+            <h2>Topics</h2>
+            <ul>
+                <li data-topic="html">HTML</li>
+                <li data-topic="css">CSS</li>
+                <li data-topic="javascript">JavaScript</li>
+                <li data-topic="questions">Questions</li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h2>Topic Information</h2>
+            <div id="infoDisplay">Select a topic to view information.</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="teacherForm">
+            <h2>Teacher's Panel - Add Notes and Questions</h2>
+            <form id="addNoteForm">
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes" rows="5" required></textarea><br><br>
+
+                <label for="question">Question:</label>
+                <input type="text" id="question" name="question" required><br><br>
+
+                <label for="answers">Answers:</label><br>
+                <input type="text" id="answer1" name="answers" placeholder="Option 1" required><br>
+                <input type="text" id="answer2" name="answers" placeholder="Option 2" required><br>
+                <input type="text" id="answer3" name="answers" placeholder="Option 3" required><br>
+                <input type="text" id="answer4" name="answers" placeholder="Option 4" required><br><br>
+
+                <button type="submit">Add Notes and Question</button>
+            </form>
+        </div>
+
+        <div id="studentForm">
+            <h2>Student's Panel - Answer Questions</h2>
+            <form id="answerQuestionForm">
+                <div id="questionDisplay"></div><br><br>
+
+                <label for="studentAnswer">Your Answer:</label>
+                <input type="text" id="studentAnswer" name="studentAnswer" required><br><br>
+
+                <button type="submit">Submit Answer</button>
+            </form>
+        </div>
+
+        <div id="quizDisplay">
+            <h2>Quiz Results</h2>
+            <div id="quizResult"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
